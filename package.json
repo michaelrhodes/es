@@ -1,0 +1,20 @@
+{
+  "name": "es5.2",
+  "author": "Michael Rhodes",
+  "version": "5.2.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "~6.26.3",
+    "babel-plugin-transform-es2015-arrow-functions": "~6.22.0",
+    "babel-plugin-transform-es2015-shorthand-properties": "~6.24.1",
+    "through2": "~3.0.0"
+  },
+  "devDependencies": {
+    "browserify": "16.2.3",
+    "dexy": "github:michaelrhodes/dexy"
+  },
+  "scripts": {
+    "test": "dexy test.js"
+  }
+}
