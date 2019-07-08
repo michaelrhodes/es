@@ -4,12 +4,13 @@ var json = /\.json$/i
 
 var plugins = [
   require('babel-plugin-transform-es2015-arrow-functions'),
-  require('babel-plugin-transform-es2015-shorthand-properties')
+  require('babel-plugin-transform-es2015-shorthand-properties'),
+  require('babel-plugin-transform-es2015-template-literals')
 ]
 
-module.exports = es52
+module.exports = es53
 
-function es52 (filename, opts) {
+function es53 (filename, opts) {
   var chunks = []
 
   return json.test(filename) ?

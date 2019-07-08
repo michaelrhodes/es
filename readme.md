@@ -2,18 +2,18 @@
 
 a browserify transform that extends ES5.1 very slightly
 
-the current version (5.2) adds arrow functions and shorthand object properties
+the current version (5.3) adds arrow functions, shorthand object properties, and template literals
 
 [![build status](https://travis-ci.org/michaelrhodes/es.svg?branch=master)](https://travis-ci.org/michaelrhodes/es)
 
 ## install
 ```sh
-npm install michaelrhodes/es#5.2
+npm install michaelrhodes/es#5.3
 ```
 
 ## use
 ```sh
-browserify example.js -t es5.2
+browserify example.js -t es5.3
 ```
 
 ## obey
